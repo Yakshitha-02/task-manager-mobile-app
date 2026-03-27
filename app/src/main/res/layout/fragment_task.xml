@@ -14,9 +14,9 @@
 
     <Button
         android:id="@+id/addBtn"
-        android:text="➕ Add Task"
+        android:text="＋ New Task"
         android:textColor="#FFFFFF"
-        android:background="#BA68C8"
+        android:background="#388E3C"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </LinearLayout>
