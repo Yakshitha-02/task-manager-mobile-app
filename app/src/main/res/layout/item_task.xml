@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:layout_margin="6dp"
+    android:background="#FCE4EC">
+
+    <TextView
+        android:id="@+id/taskTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="#333"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/editBtn"
+        android:src="@drawable/baseline_edit_24"
+        android:background="#E1BEE7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="6dp"/>
+
+    <ImageButton
+        android:id="@+id/deleteBtn"
+        android:src="@drawable/baseline_delete_24"
+        android:background="#FFCDD2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+</LinearLayout>
