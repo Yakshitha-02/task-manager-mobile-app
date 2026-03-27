@@ -49,8 +49,12 @@ class TaskAdapter(
                 .setTitle("Edit Task")
                 .setView(input)
                 .setPositiveButton("Update") { _, _ ->
-                    list[position] = Task(input.text.toString())
-                    notifyDataSetChanged()
+                    list[position] = Task(
+                        task.userId,
+                        task.id,
+                        input.text.toString(),
+                        task.completed
+                    )
                 }
                 .setNegativeButton("Cancel", null)
                 .show()
